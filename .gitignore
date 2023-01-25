@@ -1,0 +1,5 @@
+/admin/node_modules/
+/client/node_modules/
+/public/build/
+
+.DS_Store
