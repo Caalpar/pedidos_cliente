@@ -198,6 +198,7 @@
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-auto-rows: max-content;
     width: 50vw;
     margin: 2vh auto;
     height: 70vh;
@@ -230,6 +231,7 @@
     padding-left: .5rem;
     font-size: x-large;
     border-radius: .2rem;
+    max-height: 2rem;
     font-weight: bolder;
 }
 
@@ -275,6 +277,7 @@
     padding: 0.4rem;
     border-radius: .5rem;
     cursor: pointer;
+    max-height: 7rem;
 }
 
 .description{
