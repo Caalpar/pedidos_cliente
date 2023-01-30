@@ -26,7 +26,7 @@
         position: absolute;
         bottom: 0rem;
         right: 0;
-        background-color: rgba(0, 0, 0, 0.404);
+        background-color: rgb(108, 72, 72);
         border-radius: .5rem 0 0 0;
         color: white;
         width: 13rem;
@@ -35,6 +35,7 @@
         animation-duration: 3s;
         padding: 1rem;
         opacity: 0;
+        z-index: 100;
     }
 
     .popup > div
